@@ -1,0 +1,25 @@
+body{
+  background: black;
+}
+.item1 img{
+  width: 300px !important;
+  height: 300px !important;
+}
+.soldout_image{
+  width: 100px !important;
+  height: 100px !important;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+  .item1_info p{
+    font-size: 20px;
+    color: red;
+  }
+  .item1_info p span{
+    color: gray;
+    text-decoration: line-through;
+  }
+  .item_item{
+    border: 1px solid white;
+  }

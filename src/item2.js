@@ -1,0 +1,29 @@
+import React from 'react'
+
+const Item2 = ({handleSet, handleValue}) => {
+  return(
+      <>
+      <div className='container mt-5'>
+        <div className='row'>
+          <div className='item1 col-md-6'>
+          <img src="data:image/jpeg;base64,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" alt="" />
+          </div>
+          <div className='item1_info col-md-6 p-4'>
+              <h3>Branded Upper</h3>
+              <hr />
+              <p>Rs. 749.00</p>
+              <span>🚚 Get free shipping when you order above Rs.999</span> <br /><br /><br />
+              <span>DK Slim Fit Jogger Trouser For Kids-Allover Print With White & Dark Navy Stripes-SP3968 DK Slim Fit Jogger Trouser For Kids-Allover Print With White & Dark Navy Stripes-SP3968</span> <br />
+              <div>
+                <label>Quantity:</label>
+                <input onChange={handleValue} className='m-4' type='number'/>
+              </div>
+              <button onClick={handleSet} className='btn btn-dark rounded-pill mt-5'>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      </>
+  )
+}
+
+export default Item2
